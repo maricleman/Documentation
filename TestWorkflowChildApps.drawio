@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T15:42:28.618Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Vf3vT-QuYSq1aSDCfUwW" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-09T15:48:30.092Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="x7n1ZEx217sLcSfi8KWp" version="14.0.0" type="github">
   <diagram id="B4Ddo1gWWlfjhcj6iXQc" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-7" value="eScreen123" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-8" value="Test Workflow Reverse Proxy" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-9" value="DOT Urine Test" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-10" value="Test # 2" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-11" value="Test #3" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-12" value="Identity Server" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-13" value="Request Bearer Token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" target="Dl9DV8a-2xznyDjz28Hq-12" parent="1" source="Dl9DV8a-2xznyDjz28Hq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-14" value="Return Bearer Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1.003;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="Dl9DV8a-2xznyDjz28Hq-12" parent="1" target="Dl9DV8a-2xznyDjz28Hq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="287" as="targetPoint" />
+            <mxPoint x="270" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-15" value="Forwarded Client Request" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.553;entryY=-0.033;exitX=0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dl9DV8a-2xznyDjz28Hq-8" target="Dl9DV8a-2xznyDjz28Hq-9">
+          <mxGeometry x="-0.2546" y="14" relative="1" as="geometry">
+            <mxPoint x="330.0000000000002" y="260" as="sourcePoint" />
+            <mxPoint x="70" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-16" value="Client Requests DOT Urine Test" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;exitX=0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dl9DV8a-2xznyDjz28Hq-8">
+          <mxGeometry x="-0.4505" y="57" relative="1" as="geometry">
+            <mxPoint x="439.17" y="140" as="sourcePoint" />
+            <mxPoint x="330.00000000000017" y="278.35000000000014" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-17" value="Verify Bearer Token" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0275" y="-7" relative="1" as="geometry">
+            <mxPoint x="190.00000000000023" y="440" as="sourcePoint" />
+            <mxPoint x="60" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dl9DV8a-2xznyDjz28Hq-18" value="Return valid claims" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Dl9DV8a-2xznyDjz28Hq-12">
+          <mxGeometry x="-0.0975" y="-17" relative="1" as="geometry">
+            <mxPoint x="190" y="490" as="targetPoint" />
+            <mxPoint x="-69.94000000000005" y="560.65" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
