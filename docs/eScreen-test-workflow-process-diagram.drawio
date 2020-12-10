@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T22:44:11.903Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.0" etag="hLddDah9Prl1EpVKvuz_" type="github"><diagram id="Dh6EylyVC3xtyBbQbB-F">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-10T22:53:44.781Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="LLFYwZl2870LTv1SAjpw" version="14.0.0" type="github">
+  <diagram id="Dh6EylyVC3xtyBbQbB-F" name="Page-1">
+    <mxGraphModel dx="1566" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-1" value="eScreen123" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-4" value="DOT Urine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-5" value="Test Workflow App #2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-6" value="Test Workflow App #3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-9" value="Identity Server" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-10" value="1.) Request Bearer Token after internal authorization of user. eScreen123 presents" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" target="zJ4hRxUi6jIq_4KioASX-9" parent="1" source="zJ4hRxUi6jIq_4KioASX-1">
+          <mxGeometry x="0.0197" y="-11" relative="1" as="geometry">
+            <mxPoint x="60" y="110" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" source="zJ4hRxUi6jIq_4KioASX-9" parent="1" target="zJ4hRxUi6jIq_4KioASX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-12" value="1.) eScreen 123&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" width="190" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
