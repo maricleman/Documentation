@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T22:53:44.781Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="LLFYwZl2870LTv1SAjpw" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T23:03:28.036Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="W05zFqVOlflQlaq63YnG" version="14.0.0" type="github">
   <diagram id="Dh6EylyVC3xtyBbQbB-F" name="Page-1">
-    <mxGraphModel dx="1566" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,19 +19,27 @@
         <mxCell id="zJ4hRxUi6jIq_4KioASX-9" value="Identity Server" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="130" y="110" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJ4hRxUi6jIq_4KioASX-10" value="1.) Request Bearer Token after internal authorization of user. eScreen123 presents" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" target="zJ4hRxUi6jIq_4KioASX-9" parent="1" source="zJ4hRxUi6jIq_4KioASX-1">
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-10" value="1.) Request Bearer Token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" target="zJ4hRxUi6jIq_4KioASX-9" parent="1" source="zJ4hRxUi6jIq_4KioASX-1">
           <mxGeometry x="0.0197" y="-11" relative="1" as="geometry">
             <mxPoint x="60" y="110" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJ4hRxUi6jIq_4KioASX-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" source="zJ4hRxUi6jIq_4KioASX-9" parent="1" target="zJ4hRxUi6jIq_4KioASX-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-11" value="2.) Returns Bearer Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" source="zJ4hRxUi6jIq_4KioASX-9" parent="1" target="zJ4hRxUi6jIq_4KioASX-1">
+          <mxGeometry x="0.0767" y="16" relative="1" as="geometry">
             <mxPoint x="60" y="186" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJ4hRxUi6jIq_4KioASX-12" value="1.) eScreen 123&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-200" width="190" height="220" as="geometry" />
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-12" value="1.) The client, eScreen123 requests a bearer token after internally authorizing the given user. eScreen123 is handling authorization in this workflow and is ensuring the user is only able to make valid requests. If the user attempts to make an unauthorized request, the user is denied access. In order for eScreen123 to retrieve the bearer token eScreen123 must present its own Client ID and Client Secret that is registered with the Identity Server. eScreen123 must also specify the scope it wants a token for. The scope defines what the api resource has access to do.&lt;br&gt;&lt;br&gt;2.) The identity server verifies the Client ID and secret, as well as if the requested scope is valid. If the Client ID, Client Secret and requested scope is valid, a bearer token is returned to the client. The token has a limited lifetime that expires after a period of time specified by the identity server.&lt;br&gt;&lt;br&gt;3.)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-580" width="580" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ4hRxUi6jIq_4KioASX-13" value="3.)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJ4hRxUi6jIq_4KioASX-1" target="zJ4hRxUi6jIq_4KioASX-4">
+          <mxGeometry x="-0.0953" y="13" relative="1" as="geometry">
+            <mxPoint x="440" y="170" as="sourcePoint" />
+            <mxPoint x="190" y="230.0000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
